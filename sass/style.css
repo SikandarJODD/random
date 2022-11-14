@@ -1,0 +1,59 @@
+body {
+  background-color: #eee !important;
+}
+
+.container {
+  display: flex;
+}
+
+.card {
+  margin: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  background: #2b2b2b;
+}
+.card .card-title {
+  color: rgb(123, 253, 253);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.card .card-text {
+  color: rgb(196, 196, 196);
+}
+.card #btn {
+  margin-left: 10px;
+  outline: none;
+  border: 1px solid grey;
+  padding: 6px 15px;
+  border-radius: 5px;
+  margin-top: 10px;
+  transition: all 0.3s ease;
+}
+.card #btn:hover {
+  transform: translateY(-4px);
+  transition: all 0.3s ease;
+}
+
+form input {
+  margin: 10px;
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid rgb(107, 107, 107);
+  height: 35px;
+}
+
+.cmint {
+  display: flex;
+  flex-wrap: wrap;
+}
+.cmint .card {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  background: #2b2b2b;
+  overflow: hidden;
+}
+.cmint .card .card-title {
+  color: rgb(123, 253, 253);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.cmint .card .card-text {
+  color: rgb(196, 196, 196);
+}/*# sourceMappingURL=style.css.map */
