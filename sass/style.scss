@@ -11,6 +11,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     background: #2b2b2b;
+
     .card-title {
         color: rgb(123, 253, 253);
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -18,7 +19,7 @@ body {
 
     .card-text {
         color: rgb(196, 196, 196);
-
+    }
 
     #btn {
         margin-left: 10px;
